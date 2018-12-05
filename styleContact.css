@@ -1,0 +1,130 @@
+/*
+	RESET & BASIC SETUP
+*/
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-size: 62.5%;
+	font-family: 'Lucida Grande', Helvetica, sans-serif;
+	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Contact+Picture.jpg") no-repeat top center fixed;
+    background-size: cover;
+    margin: 0;
+	padding: 0;
+	color: #000000; 
+	padding: 20px;
+}
+
+tr { 
+	vertical-align: top;
+}
+
+.Contact{
+	margin-top: 5%;
+	font-size: 150%;
+	color: white;
+	text-decoration: none;
+	margin-right: 40px;
+	font-family: Helvetica, sans-serif;
+}
+
+.Phone{
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-bottom: 7%;
+}
+
+
+.Email{
+	padding: 5px 10px;
+	margin-left: 25%;
+	background-color: #c0414181;;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.Address{
+	width: fit-content;
+	float: right;
+	padding: 10px;
+	margin-right: 10%;
+	background-color: #c0414181;;
+}
+
+.Schedule{
+	margin-left: 25%;
+	margin-bottom: 5%;
+	width: fit-content;
+	padding: 7px;
+	text-align: left;
+	background-color: transparent;
+}
+
+.Schedule h3{
+	margin-bottom: 6px;
+}
+
+.Schedule:hover{
+	background-color: #b93e3ec4;
+	transition: all .5s ease-in;
+}
+
+.background{
+	float: none;
+}
+
+.sch{
+	padding: 5px 0px;
+}
+
+.social-btn{
+	width: 32px;
+	height: 32px;
+	transition: .5s ease-in;
+}
+
+.social-btn:hover{
+}
+
+.Buttons{
+	margin-top: 10%;
+	text-align: center;
+	text-decoration: none;
+}
+.Buttons a{
+	padding: 10px;
+	text-decoration: none;
+}
+
+div.scrollmenu {
+	right: 0;
+	top: 0;
+	position: fixed;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+	border: 1px solid #999999
+}
+
+/*
+	TYPOGRAPHY
+*/
+p { font-size: 1.2em; margin: 0 0 15px 0; }
+h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
+							  letter-spacing: -1px; color: white; }
+h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;
+							  letter-spacing: -1px; color: white; }
+a { color: white;}

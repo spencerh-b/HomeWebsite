@@ -1,0 +1,80 @@
+/*
+	RESET & BASIC SETUP
+*/
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-size: 62.5%; 
+	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Website+Photo.jpg") no-repeat top center fixed;
+    background-size: cover;
+    margin: 0;
+	color: #000000; 
+	padding: 20px;
+	scroll-snap-type: x mandatory;
+}
+
+tr { 
+	vertical-align: top;
+}
+
+.content{
+	margin-top: 2cm;
+}
+
+.post { 
+	width: 750px;
+	color: #000000;
+}
+
+.my-content{max-width:750px}
+.my-display-container{position:relative}
+.my-center{text-align:center!important}
+.my-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.my-left{float:left!important;font-size: 35px;color:#fff;cursor:pointer}
+.my-right{float:right!important;font-size: 35px;color:#fff;cursor:pointer}
+.my-badge,.my-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.my-badge{height:20px;width:20px;border-radius:10px;padding:0;cursor:pointer}
+.my-border{border:1.5px solid #ccc!important}
+.my-transparent,.my-hover-none:hover{background-color:transparent!important}
+.my-white,.my-hover-white:hover{color:#000!important;background-color:#fff!important}
+.my-text-color,.my-hover-text-color:hover{color:#ca4f4fef!important}
+
+div.scrollmenu {
+	right: 0;
+	top: 0;
+	position: fixed;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a.active{
+	order: 1px solid rgba(133, 36, 36, 0.664);
+} 
+
+div.scrollmenu a:hover {
+	border: 1px solid #999999	
+}
+
+/*
+	TYPOGRAPHY
+*/
+p { font-size: 1.2em; margin: 0 0 15px 0; }
+h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
+							  letter-spacing: -1px; color: #000000; }
+h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;
+							  letter-spacing: -1px; color: #000000; }
+h3 { font-family: Helvetica, sans-serif; font-size: 2.0em;
+							  letter-spacing: -1px; color: #000000; }
+a { color: #7277bb; }
+a:hover { color: #ccc; }

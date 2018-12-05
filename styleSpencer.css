@@ -1,0 +1,85 @@
+/*
+	RESET & BASIC SETUP
+*/
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-size: 62.5%; 
+	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Website+Photo+Home.jpg	") no-repeat top center fixed;
+    background-size: cover;
+    margin: 0;
+    height: 96%;
+	color: #000000; 
+	padding: 20px;
+	scroll-snap-type: x mandatory;
+}
+
+.primary{
+	text-align: center;
+	float: none;
+	padding-top: 20%;
+	font-size: 200%;
+}
+
+tr { 
+	vertical-align: top;
+}
+
+div.scrollmenu {
+	right: 0;
+	top: 0;
+	position: fixed;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu h1:hover {
+	color: gray;
+}
+
+.button{
+	margin-top: 30px;
+	text-align: center;
+}
+
+/*
+.btn{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color:white;
+	text-decoration: none;
+	margin-right: 40px;
+	font-size: 25px;
+	background-color: #dddddd96;
+	font-family: Helvetica, sans-serif;
+}
+
+.btn-one{
+	background-color: #bb636396;
+}
+
+.btn-two:hover{
+	background-color: #bb636396;
+	transition: all .5s ease-in;
+}*/
+
+/*
+	TYPOGRAPHY
+*/
+p { font-size: 1.2em; margin: 0 0 15px 0; }
+h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
+							  letter-spacing: -1px; color: #000000; }
+h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;
+							  letter-spacing: -1px; color: #000000; }
+a { color: #7277bb; }

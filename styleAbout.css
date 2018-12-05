@@ -1,0 +1,57 @@
+/*
+	RESET & BASIC SETUP
+*/
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+body { 
+	font-size: 62.5%; 
+	font-family: 'Lucida Grande', Helvetica, sans-serif;
+	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Website+Photo+Home.jpg	") no-repeat top center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+	color: #000000; 
+	padding: 20px;
+	scroll-snap-type: x mandatory;
+}
+
+tr { 
+	vertical-align: top;
+}
+
+div.scrollmenu {
+	right: 0;
+	top: 0;
+	position: fixed;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+	border: 1px solid #999999
+}
+
+/*
+	TYPOGRAPHY
+*/
+p { font-size: 1.2em; margin: 0 0 15px 0; }
+h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
+							  letter-spacing: -1px; color: #000000; }
+h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;
+							  letter-spacing: -1px; color: #000000; }
+a { color: #7277bb; }
+a:hover { color: #ccc; }
