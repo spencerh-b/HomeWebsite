@@ -1,10 +1,6 @@
-/*
-	RESET & BASIC SETUP
-*/
-
 * {
 	margin: 0; 
-	padding: 0; 
+    padding: 0;
 }
 
 body { 
@@ -12,9 +8,8 @@ body {
 	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Website+Photo.jpg") no-repeat top center fixed;
     background-size: cover;
     margin: 0;
-	color: #000000; 
-	padding: 20px;
-	scroll-snap-type: x mandatory;
+	color: #000000;
+    overflow: hidden;
 }
 
 tr { 
@@ -25,28 +20,72 @@ tr {
 	margin-top: 2cm;
 }
 
-.post { 
-	width: 750px;
-	color: #000000;
+.post {
+    width: 90vw;
+    padding: 5vw;
+    color: #000000;
 }
 
-.my-content{max-width:750px}
-.my-display-container{position:relative}
-.my-center{text-align:center!important}
-.my-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
-.my-left{float:left!important;font-size: 35px;color:#fff;cursor:pointer}
-.my-right{float:right!important;font-size: 35px;color:#fff;cursor:pointer}
-.my-badge,.my-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.my-badge{height:20px;width:20px;border-radius:10px;padding:0;cursor:pointer}
-.my-border{border:1.5px solid #ccc!important}
-.my-transparent,.my-hover-none:hover{background-color:transparent!important}
-.my-white,.my-hover-white:hover{color:#000!important;background-color:#fff!important}
-.my-text-color,.my-hover-text-color:hover{color:#ca4f4fef!important}
+.post-des{
+    display: inline-block;
+}
+
+.post-text{
+    width: 45vw;
+    float: left;
+}
+
+.photos{
+    width: 45vw;
+    float: right;
+}
+
+.photo-row{
+    display: inline-block;
+}
+
+.post-photo{
+    max-height: 45%;
+    max-width: 45%;
+    padding: 2%;
+}
+
+.dots{
+    background-color: transparent;
+    text-align: center;
+    position: fixed;
+    bottom:5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot{
+    background-color:transparent;
+    height:40px;
+    width:40px;
+    border-radius:20px;
+    padding:0;
+    cursor:pointer;
+    display:inline-block;
+    padding: 0 8px;
+    text-align: center;
+}
+
+.dot:hover{
+    background-color:white;
+}
+
+.left-btn{float:left!important;font-size: 1000%;color:#fff;cursor:pointer; position: fixed; left: 20px;top:47vh;}
+.right-btn{float:right!important;font-size: 1000%;color:#fff;cursor:pointer; position: fixed; right: 20px;top:47vh;}
+.btn-hover:hover{color:#ca4f4fef!important}
+.dot-border{border:3px solid #ccc!important}
+.dot-white{color:#000!important;background-color:#fff!important}
+
 
 div.scrollmenu {
 	right: 0;
 	top: 0;
 	position: fixed;
-    overflow: auto;
     white-space: nowrap;
 }
 
