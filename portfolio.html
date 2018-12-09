@@ -6,8 +6,8 @@
 	
 	<title>Spencer Barclay Portfolio</title>
 	
-	<!--<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/stylePortfolio.css">-->
-	<link rel="stylesheet" href="testStyle.css">
+	<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/stylePortfolio.css">
+	<link rel="stylesheet" href="stylePortfolio.css">
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/jquery.mousewheel.js"></script>
@@ -18,7 +18,7 @@
 		$("body").mousewheel(function(event, delta) {
 			this.scrollLeft -= (delta * 30);
 			event.preventDefault();
-		});   
+        }); 
 	});
 	</script>
 </head>
@@ -29,30 +29,34 @@
 		<a class="active" href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/About.html"><h1>About</h1></a>
 		<a class="active" href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/portfolio.html"><h1>Portfolio</h1></a>
 		<a class="active" href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Contact.html"><h1>Contact</h1></a>
-		<hr width="635px"/>	
+		<a class="active" href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Resume+V2.pdf" target="_blank"><h1>Resume</h1></a>
+		<hr width="818px"/>	
 	</div>
 
 	<div class = "content post-container" id="page-wrap">
-	
 	    <div id="post1" class="post">
 		    <h2>Centrix Purchase System Automation</h2>
 		    <hr />
 			<div class="post-des">
                 <div class="post-text">
     		        <h3>Description:</h3>
-    		        <p></p>
-		        	<h3>Takeaway:</h3>
-                    <p></p>
+    		        <p>
+                        The business of commodity aerospace parts is centered around 3 major premises: qualification, reliability and availability. The first two concepts can be solved simply by giving an engineer enough time to fiddle with a design. However, the third concept, availability, has been the bane of the aerospace industry since the first flight by the wright brothers ran down a hill over a century ago. Lead times cripple companies and cause project managers to pull at their hair with malicious intent. By decreasing the lead time of any given part, the value of a part is exponentially increased.
+                        <br><br>
+                        This project aimed to essentially wipe away the allotted “engineering time” of commodity flyaway parts by automating the part spec and drawing release processes. The system is designed to interface with the company website/server, and developed in C#. When a customer inputs the part number or desired specifications a company part number is created. From the part numbers, the system interfaces with Solidworks to create/release the necessary drawings for the machine shop to use. This process, while simple in theory, would regularly take 1 to 3 weeks, and is now functioning in near instant time. The system as well insures admin checkoff of all parts before drawing release is initiated. Final the system interfaces with inventory software to create inventory, machining/lead time, and finally pricing, breakdowns for the company to insure all systems are running at efficient and profitable rates.
+                        <br><br>
+                        Throughout this project, the importance of object-oriented design principals became extremely apparent. It was important to design compact and concise classes to ensure that information security was high and wasted time was eliminated as users do not like waiting for processes after a button has been pressed. Finally, the importance of threading and multiuser design became very clear during the design and implementation of this project. All in all this project taught me a lot about large scale software projects and it was extremely fun to create.
+                    </p>
                 </div>
                 <div class="photos">
                     <h3>Photos:</h3>
                     <div class="photo-row">
-                        <img class="post-photo" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/maxresdefault.jpg" style="width: 100%">
-                        <img class="post-photo" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/AirSimDemo-480x280.png" style="width: 100%">
+                        <img class="post-photo" src="" style="width: 100%">
+                        <img class="post-photo" src="" style="width: 100%">
                     </div>
                     <div class="photo-row">
-                        <img class="post-photo" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/AirSimDemo-480x280.png" style="width: 100%">
-                        <img class="post-photo" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/maxresdefault.jpg" style="width: 100%">
+                        <img class="post-photo" src="" style="width: 100%">
+                        <img class="post-photo" src="" style="width: 100%">
                     </div>
                 </div>
             </div>
@@ -64,26 +68,38 @@
 		    <div class="post-des">
                 <div class="post-text">
                     <h3>Description:</h3>
-                    <p></p>
-                    <h3>Takeaway:</h3>
-                    <p></p>
+                    <p>
+                            Exalabs seeks to model, influence, and quantify self-organized patterns in complex dynamical systems. These systems could include groups of animals, traffic, robotic swarms, artificial intelligence, and even human society. By recreating a system quantifiably, we are able to better predict the behavior of the system and potentially influence the system in a desired manor.
+                            <br><br>
+                            This project sought to influence a swarm of drones via human input. However, swarms by definition are autonomous in nature and therefore influencing a swarm must be done through individual agent interaction. In order to achieve this, the design of the controller was that of a “butterfly net”. A human would utilize a virtual reality system to influence the swarm via the hand controllers in order to try and direct the swarm in a certain direction.
+                            <br><br>
+                            The design of this system was created through AirSim, a virtual environment in which multiple drones are able to fly and interact in real time, with realistic environmental graphics. Each drone is entirely programable therefore the perfect test environment for the swarm. This VR system is the HTC vive, which is programmed to output teleop information through the Robot Operating System. The most difficult part of this project was interfacing between the test environment, the swarm behavior controls, and the VR system.
+                            
+                    </p>
                 </div>
                 <div class="photos">
                     <h3>Photos:</h3>
-
+                    <div class="photo-row">
+                            <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+4.png" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+4.png" style="width: 100%"></a>
+                            <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+2.png" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+2.png" style="width: 100%"></a>
+                        </div>
+                        <div class="photo-row">
+                            <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+1.png" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+1.png" style="width: 100%"></a>
+                            <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+3.PNG" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+3.PNG" style="width: 100%"></a>
+                        </div>
                 </div>
             </div>
         </div>
 		
     	<div id="post3" class="post">
-	   		<h2>Centrix CAD Project</h2>
+	   		<h2>Centrix Aerospace Project</h2>
 	    	<hr />
 		    <div class="post-des">
                 <div class="post-text">
                     <h3>Description:</h3>
-                    <p></p>
-                    <h3>Takeaway:</h3>
-                    <p></p>
+                    <p>
+                        By far my most recognizable project to others, the engineering projects at Centrix have included the stowbin latch on the Boeing 777x as well as floor board fasteners for the Boeing 787 and Boeing 737 airplanes. These projects have been learning experience in many phases of the project. The design, most obliviously, but as well the testing and customer communications of an engineering project are often underappreciated by academia. The difficulty of aerospace industry engineering can be attributed to extreme reliability needed to ensure the safety of passengers and flight crew as well as extraneous weight savings desired by the customer. There is an fragile balancing act that occurs throughout the entire process in order to meet these specifications.  These projects were incredible opportunities and I greatly enjoyed the challenges they provided.
+                    </p>
                 </div>
                 <div class="photos">
                     <h3>Photos:</h3>
@@ -97,14 +113,17 @@
             <div class="post-des">
                 <div class="post-text">
     			    <h3>Description:</h3>
-    			    <p></p>
-	    	    	<h3>Takeaway:</h3>
-                    <p></p>
+    			    <p>
+                            Test projects are by far the most rewarding projects I have completed at Centrix. Testing is often times a monotonous venture and can take hundreds of man hours to complete. Automating these processes not only equates to less monotonous work for myself and others, but as well utilizes the robotics and embedded systems work that I greatly enjoy. These test beds must be highly accurate to ensure the quality of products that have been created, and as well must reliably record all data for future reference. Many of these products utilize load cells, linear rails, stepper motors, and raspberry pi’s, but a smattering of other hardware is used in the final versions of these testing setups. The most challenging part of these projects is meeting the extremely tight tolerances, sometimes as small as .001” that are required for success.
+                    </p>
                 </div>
                 <div class="photos">
                     <h3>Photos:</h3>
                 </div>
             </div>
+        </div>
+        <div id="post5" class="post">
+            <h1>More To Come...</h1>       
         </div>
     </div>
     
@@ -115,6 +134,7 @@
 	    <span class="dot dot-border dot-white" onclick="currentDiv(2)"></span>
         <span class="dot dot-border dot-white" onclick="currentDiv(3)"></span>
         <span class="dot dot-border dot-white" onclick="currentDiv(4)"></span>
+        <span class="dot dot-border dot-white" onclick="currentDiv(5)"></span>
     </div>
 </body>
 <script>
@@ -143,6 +163,29 @@ function showDivs(n) {
   elmnt.scrollIntoView({ behavior: "smooth", inline: 'center' });
   dotss[slideIndex-1].className += " dot-white";
 }
+
+function bigImg(x) {
+    var photos = document.getElementsByClassName("post-photo");
+    var i = 0;
+    for (i = 0; i < photos.length; i++) {
+        photos[i].style.display = 'none';
+    }
+    x.style.maxHeight = "99%";
+    x.style.maxWidth = "99%";
+    x.style.display = 'initial';
+    
+}
+
+function normalImg(x) {
+    var photos = document.getElementsByClassName("post-photo");
+    var i = 0;
+    for (i = 0; i < photos.length; i++) {
+        photos[i].style.display = 'initial';
+        photos[i].style.maxHeight = "45%";
+        photos[i].style.maxWidth = "45%";
+    }
+}
+
 </script>
 
 </html>

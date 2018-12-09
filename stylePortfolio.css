@@ -22,7 +22,8 @@ tr {
 
 .post {
     width: 90vw;
-    padding: 5vw;
+    height: 90vh;
+    padding: 10vh 5vw 0;
     color: #000000;
 }
 
@@ -31,12 +32,15 @@ tr {
 }
 
 .post-text{
-    width: 45vw;
+    width: 40vw;
+    padding: 2.5vw;
     float: left;
+    background-color: #ffffffb2
 }
 
 .photos{
-    width: 45vw;
+    width: 40vw;
+    padding: 2.5vw;
     float: right;
 }
 
@@ -98,22 +102,22 @@ div.scrollmenu a {
 }
 
 div.scrollmenu a.active{
-	order: 1px solid rgba(133, 36, 36, 0.664);
+	color: 1px solid rgba(133, 36, 36, 0.664);
 } 
 
-div.scrollmenu a:hover {
-	border: 1px solid #999999	
+div.scrollmenu h1:hover{
+	color: #c0414181;	
 }
 
 /*
 	TYPOGRAPHY
 */
-p { font-size: 1.2em; margin: 0 0 15px 0; }
+p { font-size: 1.4em; margin: 0 0 15px 0; }
 h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
 							  letter-spacing: -1px; color: #000000; }
 h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;
 							  letter-spacing: -1px; color: #000000; }
 h3 { font-family: Helvetica, sans-serif; font-size: 2.0em;
-							  letter-spacing: -1px; color: #000000; }
+							  letter-spacing: -1px; color: #000000; padding: 2%;}
 a { color: #7277bb; }
 a:hover { color: #ccc; }

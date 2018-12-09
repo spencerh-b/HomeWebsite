@@ -11,7 +11,7 @@ body {
 	font-size: 62.5%;
 	font-family: 'Lucida Grande', Helvetica, sans-serif;
 	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Contact+Picture.jpg") no-repeat top center fixed;
-    background-size: cover;
+	background-size: cover;
     margin: 0;
 	padding: 0;
 	color: #000000; 
@@ -34,16 +34,21 @@ tr {
 .Phone{
 	margin-top: 10%;
 	margin-left: 25%;
-	margin-bottom: 7%;
+	margin-bottom: 2%;
 }
 
 
 .Email{
 	padding: 5px 10px;
-	margin-left: 25%;
-	background-color: #c0414181;;
-	text-decoration: none;
+	margin-left: 50%;
+	width: fit-content;
+	text-decoration: underline;
 	text-transform: uppercase;
+}
+
+.Email:hover{
+	background-color: #c0414181;
+	transition: all .5s ease-in;
 }
 
 .Address{
@@ -51,12 +56,11 @@ tr {
 	float: right;
 	padding: 10px;
 	margin-right: 10%;
-	background-color: #c0414181;;
+	background-color: #c0414181;
 }
 
 .Schedule{
 	margin-left: 25%;
-	margin-bottom: 5%;
 	width: fit-content;
 	padding: 7px;
 	text-align: left;
@@ -93,6 +97,10 @@ tr {
 	margin-top: 10%;
 	text-align: center;
 	text-decoration: none;
+	position: fixed;
+    bottom:5%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .Buttons a{
 	padding: 10px;
@@ -115,8 +123,8 @@ div.scrollmenu a {
     text-decoration: none;
 }
 
-div.scrollmenu a:hover {
-	border: 1px solid #999999
+div.scrollmenu h1:hover{
+	color: #c0414181;	
 }
 
 /*

@@ -15,10 +15,26 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 100%;
+    width: 100vw;
 	color: #000000; 
 	padding: 20px;
 	scroll-snap-type: x mandatory;
+}
+
+.desc{
+	max-width: 50%;
+	margin-top: 3%;
+	background-color: #ffffffb4;
+	padding: 10px;
+}
+
+.photo-row{
+    display: inline-block;
+}
+
+.about-photo{
+	padding: 2.5vh;
+	max-width: 45vw;
 }
 
 tr { 
@@ -41,14 +57,14 @@ div.scrollmenu a {
     text-decoration: none;
 }
 
-div.scrollmenu a:hover {
-	border: 1px solid #999999
+div.scrollmenu h1:hover{
+	color: #c0414181;	
 }
 
 /*
 	TYPOGRAPHY
 */
-p { font-size: 1.2em; margin: 0 0 15px 0; }
+p { font-size: 1.5em; margin: 30px 15px; }
 h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
 							  letter-spacing: -1px; color: #000000; }
 h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;

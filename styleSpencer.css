@@ -44,8 +44,8 @@ div.scrollmenu a {
     text-decoration: none;
 }
 
-div.scrollmenu h1:hover {
-	color: gray;
+div.scrollmenu h1:hover{
+	color: #c0414181;	
 }
 
 .button{
