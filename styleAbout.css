@@ -10,7 +10,7 @@
 body { 
 	font-size: 62.5%; 
 	font-family: 'Lucida Grande', Helvetica, sans-serif;
-	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Website+Photo+Home.jpg	") no-repeat top center fixed;
+	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Website+Photo+Home+2.jpg	") no-repeat top center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -18,17 +18,16 @@ body {
     width: 98.5vw;
 	color: #000000; 
 	padding: 20px;
-	scroll-snap-type: x mandatory;
 	overflow-x: hidden;
 }
 
 .desc{
+	padding: 15px;
 	max-width: 50%;
-	margin-top: 3%;
+	margin-top: 8%;
 	margin-left: 2.2vw;
 	margin-bottom:2.25vw;
 	background-color: #ffffffb4;
-	padding: 10px;
 }
 
 .photos-left{
@@ -83,7 +82,7 @@ div.scrollmenu h1:hover{
 */
 p { font-size: 1.5em; margin: 30px 15px; }
 h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
-							  letter-spacing: -1px; color: #000000; }
+							  letter-spacing: -1px; color: white; }
 h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;
 							  letter-spacing: -1px; color: #000000; }
 a { color: #7277bb; }

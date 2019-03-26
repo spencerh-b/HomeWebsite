@@ -2,31 +2,23 @@
 <html>
 
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8" />
+    <meta name="description" content="Spencer Barclay - Portfolio" />
+    <meta property="og:title" content="Spencer Barclay - Portfolio" />
+    <meta property="og:description" content="Spencer Barclay - Portfolio" />
+    <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Contact+Picture.jpg" />
+    <link rel="shortcut icon" href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Website+Icon.ico" type="image/x-icon" />
 	
 	<title>Spencer Barclay Portfolio</title>
 	
 	<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/stylePortfolio.css">
-	<link rel="stylesheet" href="stylePortfolio.css">
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/jquery.mousewheel.js"></script>
-	<script>
-	$(function(){
-		$("#page-wrap").wrapInner("<table cellspacing='30'><tr>");
-		$(".post").wrap("<td></td>");
-		$("body").mousewheel(function(event, delta) {
-			this.scrollLeft -= (delta * 30);
-			event.preventDefault();
-        }); 
-	});
-	</script>
+    <link rel="stylesheet" href="stylePortfolio.css">
 </head>
 
 <body>
 	<div class="scrollmenu" id="portHeader">
 		<a class="active" href="http://www.spencerhb.com/"><h1>Home</h1></a>
-        <a class="active" href="http://www.spencerhb.com/Resume+V2.pdf" target="_blank"><h1>Resume</h1></a>
+        <a class="active" href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Resume+V2.pdf" target="_blank"><h1>Resume</h1></a>
 		<a class="active" href="http://www.spencerhb.com/portfolio.html"><h1>Portfolio</h1></a>
         <a class="active" href="http://www.spencerhb.com/Contact.html"><h1>Contact</h1></a>
         <a class="active" href="http://www.spencerhb.com/About.html"><h1>About</h1></a>
@@ -34,9 +26,14 @@
 	</div>
 
 	<div class = "content post-container" id="page-wrap">
+        <div id="post0" class="post">
+            <h1 style="padding: 5px 40px">CLICK THE ARROWS TO SCROLL</h1>
+            <h3 style="color:white">Welcome to my portfolio page. The following projects are examples of some of my favorite projects to work on. Although the quantity of projects is small, the quality of the projects has been invaluable as a resource to further develop my skills as a developer and an engineer.</h3>
+
+        </div>
 	    <div id="post1" class="post">
 		    <h2>Centrix Purchase System Automation</h2>
-		    <hr />
+            <hr />
 			<div class="post-des">
                 <div class="post-text">
     		        <h3>Description:</h3>
@@ -51,11 +48,11 @@
                 <div class="photos">
                     <h3>Photos:</h3>
                     <div class="photo-row">
-                        <a href="" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="" style="width: 100%"></a>
-                        <a href="" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/CenLok.PNG" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/CenLok.PNG" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Centrix+PO+Screen.PNG" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Centrix+PO+Screen.PNG" style="width: 100%"></a>
                     </div>
                     <div class="photo-row">
-                        <a href="" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Centrix+PO+Spec.PNG" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Centrix+PO+Spec.PNG" style="width: 100%"></a>
                         <a href="" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="" style="width: 100%"></a>
                     </div>
                 </div>
@@ -80,12 +77,12 @@
                 <div class="photos">
                     <h3>Photos:</h3>
                     <div class="photo-row">
-                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+4.png" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+4.png" style="width: 100%"></a>
-                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+2.png" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+2.png" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Exalabs+Swarm+Controller+4.png" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Exalabs+Swarm+Controller+4.png" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Exalabs+Swarm+Controller+2.png" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Exalabs+Swarm+Controller+2.png" style="width: 100%"></a>
                     </div>
                     <div class="photo-row">
-                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+1.png" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+1.png" style="width: 100%"></a>
-                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+3.PNG" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Exalabs+Swarm+Controller+3.PNG" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Exalabs+Swarm+Controller+1.png" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Exalabs+Swarm+Controller+1.png" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Exalabs+Swarm+Controller+3.PNG" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Exalabs+Swarm+Controller+3.PNG" style="width: 100%"></a>
                     </div>
                 </div>
             </div>
@@ -104,11 +101,11 @@
                 <div class="photos">
                     <h3>Photos:</h3>
                     <div class="photo-row">
-                        <a href="" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="" style="width: 100%"></a>
-                        <a href="" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Stowbin.PNG" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Stowbin.PNG" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/BiLok.PNG" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/BiLok.PNG" style="width: 100%"></a>
                     </div>
                     <div class="photo-row">
-                        <a href="" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="" style="width: 100%"></a>
+                        <a href="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Free+Spin+1.jpg" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Portfolio/Free+Spin+1.jpg" style="width: 100%"></a>
                         <a href="" target="_blank"><img class="post-photo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="" style="width: 100%"></a>
                     </div>
                 </div>
@@ -143,41 +140,51 @@
         </div>
     </div>
     
-    <div class="left-btn btn-hover" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="right-btn btn-hover" onclick="plusDivs(1)">&#10095;</div>
-    <div class="dots">
-        <span class="dot dot-border dot-white" onclick="currentDiv(1)"></span>
-	    <span class="dot dot-border dot-white" onclick="currentDiv(2)"></span>
-        <span class="dot dot-border dot-white" onclick="currentDiv(3)"></span>
-        <span class="dot dot-border dot-white" onclick="currentDiv(4)"></span>
-        <span class="dot dot-border dot-white" onclick="currentDiv(5)"></span>
-    </div>
+    <div id="left-button" class="left-btn btn-hover" onclick="plusDivs(-1)">&#10514;</div>
+    <div id="right-button" class="right-btn btn-hover" onclick="plusDivs(1)">&#10515;</div>
 </body>
 <script>
-var slideIndex = 1
-showDivs(slideIndex)
+var slideIndex = 0;
+showDivs(slideIndex);
 
 function plusDivs(n) {
     showDivs(slideIndex += n);
 }
 
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
 function showDivs(n) {
-  var i;
   var x = document.getElementsByClassName("post");
-  
-  var dotss = document.getElementsByClassName("dot");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < dotss.length; i++) {
-     dotss[i].className = dotss[i].className.replace(" dot-white", "");
+
+
+  if (n > x.length - 1) {
+      slideIndex = 0;
   }
+  else if(n < 0){
+      slideIndex = x.length-1;
+  }
+
   var elmnt = document.getElementById("post"+slideIndex.toString());
   elmnt.scrollIntoView({ behavior: "smooth", inline: 'center' });
-  dotss[slideIndex-1].className += " dot-white";
+
+  console.log(slideIndex.toString());
+
+  var btnLeft = document.getElementById("left-button");
+  var btnRight = document.getElementById("right-button");
+
+  if (slideIndex === 0) {
+    btnLeft.style.visibility = "hidden";
+  }
+
+  if (slideIndex === x.length - 1) {
+    btnRight.style.visibility ="hidden";
+  }
+
+  if (n < x.length - 1) {
+    btnRight.style.visibility = "visible";
+  }    
+  if (n > 0) {
+    btnLeft.style.visibility = "visible";
+  }
+  
 }
 
 function bigImg(x) {

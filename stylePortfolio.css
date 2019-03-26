@@ -5,7 +5,7 @@
 
 body { 
 	font-size: 62.5%; 
-	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Website+Photo.jpg") no-repeat top center fixed;
+	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Website+Photo+2.jpg") no-repeat top center fixed;
     background-size: cover;
     margin: 0;
 	color: #000000;
@@ -23,11 +23,12 @@ tr {
 .post {
     width: 90vw;
     height: 90vh;
-    padding: 10vh 5vw 0;
+    padding: 10vh 0 0 9vw;
     color: #000000;
 }
 
 .post-des{
+    padding-top: 5px;
     display: inline-block;
 }
 
@@ -54,36 +55,10 @@ tr {
     padding: 2%;
 }
 
-.dots{
-    background-color: transparent;
-    text-align: center;
-    position: fixed;
-    bottom:5%;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
-.dot{
-    background-color:transparent;
-    height:40px;
-    width:40px;
-    border-radius:20px;
-    padding:0;
-    cursor:pointer;
-    display:inline-block;
-    padding: 0 8px;
-    text-align: center;
-}
-
-.dot:hover{
-    background-color:white;
-}
-
-.left-btn{float:left!important;font-size: 1000%;color:#fff;cursor:pointer; position: fixed; left: 20px;top:47vh;}
-.right-btn{float:right!important;font-size: 1000%;color:#fff;cursor:pointer; position: fixed; right: 20px;top:47vh;}
+.left-btn{font-size: 1200%;color:#fff;cursor:pointer; position: fixed; left: 10px;top:36vh; visibility: visible;}
+.right-btn{font-size: 1200%;color:#fff;cursor:pointer; position: fixed; left: 10px;top:58vh; visibility: visible;}
 .btn-hover:hover{color:#ca4f4fef!important}
-.dot-border{border:3px solid #ccc!important}
-.dot-white{color:#000!important;background-color:#fff!important}
 
 
 div.scrollmenu {
@@ -114,10 +89,10 @@ div.scrollmenu h1:hover{
 */
 p { font-size: 1.4em; margin: 0 0 15px 0; }
 h1 { font-family: Helvetica, sans-serif; font-size: 4.0em;
-							  letter-spacing: -1px; color: #000000; }
+							  letter-spacing: -1px; color: #ffffff; }
 h2 { font-family: Helvetica, sans-serif; font-size: 3.0em;
-							  letter-spacing: -1px; color: #000000; }
+							  letter-spacing: -1px; color: #ffffff; }
 h3 { font-family: Helvetica, sans-serif; font-size: 2.0em;
-							  letter-spacing: -1px; color: #000000; padding: 2%;}
+							  letter-spacing: -1px; color: #ffffff; padding: 2%;}
 a { color: #7277bb; }
 a:hover { color: #ccc; }

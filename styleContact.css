@@ -10,7 +10,7 @@
 body { 
 	font-size: 62.5%;
 	font-family: 'Lucida Grande', Helvetica, sans-serif;
-	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Contact+Picture.jpg") no-repeat top center fixed;
+	background: url("https://s3-us-west-2.amazonaws.com/www.spencerhb.com/Contact/Contact+Picture.jpg") no-repeat top center fixed;
 	background-size: cover;
     margin: 0;
 	padding: 0;
@@ -88,9 +88,6 @@ tr {
 	width: 32px;
 	height: 32px;
 	transition: .5s ease-in;
-}
-
-.social-btn:hover{
 }
 
 .Buttons{
